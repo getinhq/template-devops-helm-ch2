@@ -1,4 +1,4 @@
-replicaCount: 2
+replicaCount: TODO_set_replicas
 image:
   repository: python
-  tag: "3.11-slim"
+  tag: "TODO-set-image-tag"

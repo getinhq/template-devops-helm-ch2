@@ -13,3 +13,4 @@ jobs:
         with:
           version: "v3.14.0"
       - run: helm lint chart
+      - run: '! grep -q "TODO_set" chart/values.yaml'
